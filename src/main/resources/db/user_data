@@ -1,0 +1,19 @@
+CREATE TABLE tbl_user
+(
+    id       bigint(20)  NOT NULL AUTO_INCREMENT,
+    username varchar(25) NOT NULL,
+    password varchar(75) NOT NULL,
+    name     varchar(50) NOT NULL,
+    surname  varchar(50) NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+INSERT INTO tbl_user (username, password, name, surname)
+VALUES ('user1', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u', 'User', 'First');
+INSERT INTO tbl_user (username, password, name, surname)
+VALUES ('user2', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u', 'User', 'First');
+INSERT INTO tbl_user (username, password, name, surname)
+VALUES ('user3', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u', 'User', 'First');
+INSERT INTO tbl_user (username, password, name, surname)
+VALUES ('user4', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u', 'User', 'First');
