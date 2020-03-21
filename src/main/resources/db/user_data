@@ -17,3 +17,5 @@ INSERT INTO tbl_user (username, password, name, surname)
 VALUES ('user3', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u', 'User', 'First');
 INSERT INTO tbl_user (username, password, name, surname)
 VALUES ('user4', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u', 'User', 'First');
+INSERT INTO tbl_user (username, password, name, surname)
+VALUES ('user5', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u', 'User', 'Fifth');
