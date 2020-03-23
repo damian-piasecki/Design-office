@@ -7,11 +7,9 @@ CREATE TABLE tbl_user
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8;
 
-INSERT INTO tbl_user (username, password, name, surname)
-VALUES ('user1', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u');
-INSERT INTO tbl_user (username, password, name, surname)
-VALUES ('user2', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u');
-INSERT INTO tbl_user (username, password, name, surname)
-VALUES ('user3', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u');
-INSERT INTO tbl_user (username, password, name, surname)
-VALUES ('user4', '$2y$04$Y6ZCytzPTEzq3/eyEQ/Sz.wh8BwHwo2.5go.OEdAtPxLyA.13L98u');
+INSERT INTO tbl_user (username, password)
+VALUES ('user1', '$2a$10$mj71PMiLXTV5KeTiZWpx8uDrz6wShtaNwoIdTFiPYfWDhViQdf3jy');
+INSERT INTO tbl_user (username, password)
+VALUES ('user3', '$2a$10$mj71PMiLXTV5KeTiZWpx8uDrz6wShtaNwoIdTFiPYfWDhViQdf3jy');
+INSERT INTO tbl_user (username, password)
+VALUES ('user4', '$2a$10$mj71PMiLXTV5KeTiZWpx8uDrz6wShtaNwoIdTFiPYfWDhViQdf3jy');
